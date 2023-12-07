@@ -1,15 +1,14 @@
-import React from 'react'
-import s from './footer.module.css'
+import React from "react";
+import s from "./footer.module.css";
 
 function Footer() {
-    return (
-        <div className={s.main}>
-            <ul>
-                <li>Исполнитель: Кожоев Абдулазим</li>
-                <li>Дизайнер: Нуркасымов Бекзат</li>
-            </ul>
-        </div>
-    )
+  return (
+    <div className={s.main}>
+      <ul>
+        <li>Исполнитель: Шаршенбекова Айжамал</li>
+      </ul>
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;
